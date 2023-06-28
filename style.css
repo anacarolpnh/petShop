@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffff; /* Branco levemente rosado */
+    background-image: url("pata_de_cachorro.png"); /* Imagem de marca d'água da pata de cachorro */
+    background-position: 400px 100px; /* Posição da imagem em pixels */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-size: 500px 500px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    background-color: #FFAFAF;
+}
+.subcabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    background-color: #DCDCDC;
+}
+.cabecalho-barra {
+    margin-left: 0px;
+    display: flex;
+    gap: 0px;
+    margin-bottom: -18px;
+}
+
+.cabecalho-texto {
+    font-family: 'Roboto Slab', serif;
+    color: #0e0e0e;
+    font-weight: 550;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    max-width: 100%; /* a imagem terá no máximo a largura da div */
+    max-height: 100%; /* a imagem terá no máximo a altura da div */
+}
+
+.botao-cinza {
+    background-color: #ccc;
+    padding: 3px 15px;
+}
+
+.submenu {
+    display: none; /* Oculta o submenu por padrão */
+}
+
+.submenu-item {
+    display: block;
+    background-color: #FFAFAF;
+    border-color: #FFAFAF;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.grid {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grid-item {
+    flex-basis: 200px;
+    padding: 10px;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
